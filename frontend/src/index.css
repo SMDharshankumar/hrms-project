@@ -1,0 +1,15 @@
+/* 1. Use the full Google Fonts URL at the VERY TOP */
+@import url('https://googleapis.com');
+
+/* 2. Tailwind directives come after imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #020617;
+  color: #f8fafc;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
